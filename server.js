@@ -5,8 +5,8 @@ const mysql = require('mysql')
 const util = require('util')
 
 const pool = mysql.createPool({
-  host: process.env.DB_HOST || 'portizdbinstance.cm6hb8mfglop.us-east-1.rds.amazonaws.com',
-  user: process.env.DB_USER || 'portiz',
+  host: process.env.DB_HOST || '54.221.34.190',
+  user: process.env.DB_USER || 'root',
   password: process.env.DB_PASS || '12345678',
   database: process.env.DB_NAME || 'movie_db'
 })
